@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    height:90vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)
+    ),
+    url("image/products/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+    text-align:center;
+}
+
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+footer{
+    margin-top:40px;
+}
+.page-banner{
+    height:300px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    text-align:center;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+    ),
+    url("https://images.unsplash.com/photo-1517048676732-d65bc937f952");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.page-banner h1{
+    font-size:60px;
+    font-weight:bold;
+}
+.card{
+    border:none;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card-title{
+    color:#0d6efd;
+}
+body{
+    background:#f8f9fa;
+}
+
+h1,h2,h3,h4{
+    color:#1c355e;
+}
+
+.btn-warning{
+    background:#f4b400;
+    border:none;
+}
+.hero h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.hero p{
+    color: white;
+}
+.page-banner h1{
+    color:white;
+    font-size:60px;
+    font-weight:bold;
+    text-shadow:2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.page-banner p{
+    color:white;
+    font-size:20px;
+}
+.nav-link{
+    font-size:18px;
+    font-weight:500;
+    margin-left:10px;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
